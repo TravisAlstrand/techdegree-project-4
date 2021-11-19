@@ -492,11 +492,16 @@ a {
 /*              Forms                            */
 /* ============================================= */
 /* line 5, ../../../Documents/Coding Projects/Team Treehouse/techdegree-project-4/scss/component/_forms.scss */
+fieldset {
+  border: none;
+}
+
+/* line 8, ../../../Documents/Coding Projects/Team Treehouse/techdegree-project-4/scss/component/_forms.scss */
 .form {
   flex-basis: 100%;
 }
 
-/* line 9, ../../../Documents/Coding Projects/Team Treehouse/techdegree-project-4/scss/component/_forms.scss */
+/* line 12, ../../../Documents/Coding Projects/Team Treehouse/techdegree-project-4/scss/component/_forms.scss */
 .input {
   display: block;
   width: 94%;
@@ -506,7 +511,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
-/* line 18, ../../../Documents/Coding Projects/Team Treehouse/techdegree-project-4/scss/component/_forms.scss */
+/* line 21, ../../../Documents/Coding Projects/Team Treehouse/techdegree-project-4/scss/component/_forms.scss */
 .hidden {
   position: absolute;
   left: -10000px;
